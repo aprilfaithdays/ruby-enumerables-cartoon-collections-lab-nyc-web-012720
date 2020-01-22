@@ -17,7 +17,7 @@ end
 def find_the_cheese(calls)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  calls.include(cheese_types) do |cheese|
+  calls.include?(cheese_types) do |cheese|
     cheese
   end
 end
